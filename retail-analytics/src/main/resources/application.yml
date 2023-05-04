@@ -1,0 +1,9 @@
+spring.application.name: retail-analytics
+logging:
+  level:
+    root: INFO
+  file:
+    path: './logs/${spring.application.name}'
+    name: ${logging.file.path}/${spring.application.name}.log
+org.hibernate.SQL: true 
+server.port: 9001 
